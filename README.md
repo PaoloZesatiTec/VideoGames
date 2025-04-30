@@ -2,7 +2,7 @@
 
 Este es un juego clásico de Breakout, implementado en JavaScript con HTML5 Canvas. Fue desarrollado como parte de una práctica individual del módulo de videojuegos.
 
-## ▶ Cómo correr el juego
+## Cómo correr el juego
 
 1. Abre el archivo `breakout.html` ubicado en la carpeta `/html/` con cualquier navegador moderno (Chrome, Firefox, Edge, etc.).
 2. El juego se iniciará automáticamente al abrir la página.
@@ -11,14 +11,14 @@ Este es un juego clásico de Breakout, implementado en JavaScript con HTML5 Canv
 > ⚠ Es importante mantener la estructura de carpetas para que los scripts y estilos se carguen correctamente desde el archivo HTML.
 
 
-## 🎯 Objetivo del juego
+## Objetivo del juego
 
 El objetivo es destruir todos los bloques de colores usando una pelota, sin dejar que esta caiga fuera de la pantalla.  
 Tienes **3 vidas** para lograrlo.
 
 ---
 
-## 🎮 Controles del juego
+## Controles del juego
 
 | Acción                  | Tecla               |
 |-------------------------|---------------------|
@@ -28,7 +28,7 @@ Tienes **3 vidas** para lograrlo.
 
 ---
 
-## 🧱 Reglas
+## Reglas
 
 - La pelota rebota en las paredes laterales y superiores, así como en la paleta.
 - Al golpear un bloque, este desaparece y se incrementa el contador de bloques destruidos.
