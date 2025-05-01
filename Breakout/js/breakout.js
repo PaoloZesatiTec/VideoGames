@@ -158,7 +158,7 @@ class Game {
             }
         
 
-        ctx.fillStyle = "red";
+        ctx.fillStyle = "red";h
         ctx.font = "20px Arial";
         ctx.fillText(`VIDAS: ${this.lives}`, 10, 20);
         ctx.fillText(`BLOQUES DESTRUIDOS: ${this.destroyedBlocks}`, 10, 40);
