@@ -146,7 +146,7 @@ class Game {
         }
 
         // Gana si destruyó todos los bloques
-        if (this.destroyedBlocks === numRows * numCols) {
+        if (this.blocks.lenght === 0) {
             alert("¡GANASTE!");
             document.location.reload();
         }
