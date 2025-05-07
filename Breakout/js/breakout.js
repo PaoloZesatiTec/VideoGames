@@ -1,3 +1,10 @@
+/*
+ * Breakout Game usando game_classes
+ *
+ * Paolo Zesati
+ * 2025-04-31
+ */
+
 "use strict";
 
 const canvasWidth = 800;
@@ -158,7 +165,7 @@ class Game {
             }
         
 
-        ctx.fillStyle = "red";h
+        ctx.fillStyle = "red";
         ctx.font = "20px Arial";
         ctx.fillText(`VIDAS: ${this.lives}`, 10, 20);
         ctx.fillText(`BLOQUES DESTRUIDOS: ${this.destroyedBlocks}`, 10, 40);
